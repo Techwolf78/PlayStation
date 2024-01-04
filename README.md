@@ -1,12 +1,5 @@
-<h1 align="center">
-    <img src="./assets/svg/logo.svg">
-</h1>
 
-<h1 align="center">
-    <img src="./banner.png">
-</h1>
-
-<h3 align="center">You can access the project <a href="https://repsonsive-website-playstation.netlify.app/" target="_blank">Clicking here</a></h3>
+<h1 align="center">You can access the project <a href="https://repsonsive-website-playstation.netlify.app/" target="_blank">Clicking here</a></h1>
 
 
 ---
