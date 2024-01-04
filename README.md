@@ -34,4 +34,4 @@
 
 <br/>
 
-<p align="center"> Helped to Develop this project<a> Kennedy Barros</a></p>
+<p align="center"> Helped in designing Kennedy Barros and <b>Developed</b> this project by <a href="https://www.linkedin.com/in/ajay-pawar-9b5b81248/">Ajay Pawar</a> ✌🏼</p>
