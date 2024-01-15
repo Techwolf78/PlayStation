@@ -161,3 +161,4 @@ function activateProduct(parameter) {
 }
 
 parameters.forEach(activateProduct);
+

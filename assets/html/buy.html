@@ -7,50 +7,7 @@
     
    <!--========== HTML META TAGS ===========-->
     <title>Buy More | Playstation</title>
-    <meta
-      name="description"
-      content="Responsive Website PlayStation by Kennedy B."
-    />
-    <meta name="author" content="Kennedy Barros" />
-
-    <!--========== Open Graph / Facebook ===========-->
-    <meta
-      property="og:url"
-      content="https://repsonsive-website-playstation.netlify.app/"
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Responsive Website PlayStation" />
-    <meta
-      property="og:description"
-      content="Responsive Website PlayStation by Kennedy B."
-    />
-    <meta property="og:image" content="https://i.ibb.co/qCvjdFd/cover.png" />
-
-    <!--========== CANONICAL  ===========-->
-    <meta
-      property="canonical"
-      content="https://repsonsive-website-playstation.netlify.app/"
-    />
-    <meta property="keywords" content="responsive, website, playstation" />
-    <meta property="robots" content="responsive, website, playstation" />
-
-    <!--=========== TWITTER ===============-->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta
-      property="twitter:domain"
-      content="repsonsive-website-playstation.netlify.app"
-    />
-    <meta
-      property="twitter:url"
-      content="https://repsonsive-website-playstation.netlify.app/"
-    />
-    <meta name="twitter:title" content="Responsive Website PlayStation" />
-    <meta
-      name="twitter:description"
-      content="Responsive Website PlayStation by Kennedy B."
-    />
-    <meta name="twitter:image" content="https://i.ibb.co/qCvjdFd/cover.png" />
-
+    
     <!--========== FAVICON ===========-->
     <link rel="icon" href="../../assets/svg/logo.svg" type="image/svg+xml" />
 
@@ -249,12 +206,12 @@
           </div>
           
             <div class="form_cpf">
-              <label for="cpf">CPF</label>
+              <label for="cpf">UPI ID</label>
               <input
                 type="text"
                 id="cpf"
                 name="cpf"
-                placeholder="123.456.789-10"
+                placeholder="1234567890@upi"
                 required
               />
             </div>
@@ -274,12 +231,12 @@
 
               <div class="delivery_container">
                 <div class="form_cep">
-                  <label for="cep">CEP</label>
+                  <label for="cep">Post Number</label>
                   <input
                     type="text"
                     id="cep"
                     name="cep"
-                    placeholder="12.345-678"
+                    pattern="[0-9]{6}"
                     required
                   />
                 </div>
@@ -298,7 +255,7 @@
 
               <div class="delivery_container">
                 <div class="form_place">
-                  <label for="place">Public Place</label>
+                  <label for="place">Landmark</label>
                   <input
                     type="text"
                     id="place"
@@ -308,7 +265,7 @@
                 </div>
 
                 <div class="form_neighborhood">
-                  <label for="neighborhood">Neighborhood</label>
+                  <label for="neighborhood">Town</label>
                   <input
                     type="text"
                     id="neighborhood"
